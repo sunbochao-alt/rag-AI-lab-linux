@@ -1,0 +1,19 @@
+# 基础框架
+streamlit
+python-dotenv
+
+# LangChain 核心与社区组件
+langchain==1.2.8
+langchain-core==1.2.8
+langchain-community==0.4.1
+langchain-text-splitters
+
+# 模型接口与向量数据库
+langchain-openai==1.1.7
+langchain-huggingface==1.2.0
+sentence-transformers
+pypdf
+chromadb
+
+# Linux 兼容性补丁
+pysqlite3-binary

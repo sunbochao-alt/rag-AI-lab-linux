@@ -1,0 +1,63 @@
+nohup: ignoring input
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mexec_code.py[0m:129 in exec_func_with_error_handling                                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mscript_runner.py[0m:672 in code_to_exec                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/[0m[1mweb_app.py[0m:13 in <module>                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 10 [0m[94mfrom[0m[90m [0m[4;96mdotenv[0m[90m [0m[94mimport[0m load_dotenv                                                 [31m [0m
+[31m [0m   [2m 11 [0m                                                                               [31m [0m
+[31m [0m   [2m 12 [0m[2m# --- 新版 LangChain 导入 (适配 0.3.x) ---[0m                                     [31m [0m
+[31m [0m [31m❱ [0m 13 [94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[90m [0m[94mimport[0m create_history_aware_retriever, create_retrieval_ [31m [0m
+[31m [0m   [2m 14 [0m[94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[4;96m.[0m[4;96mcombine_documents[0m[90m [0m[94mimport[0m create_stuff_documents_chain    [31m [0m
+[31m [0m   [2m 15 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mprompts[0m[90m [0m[94mimport[0m ChatPromptTemplate, MessagesPlaceholder     [31m [0m
+[31m [0m   [2m 16 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mmessages[0m[90m [0m[94mimport[0m HumanMessage, AIMessage                    [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'langchain.chains'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mexec_code.py[0m:129 in exec_func_with_error_handling                                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mscript_runner.py[0m:672 in code_to_exec                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/[0m[1mweb_app.py[0m:13 in <module>                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 10 [0m[94mfrom[0m[90m [0m[4;96mdotenv[0m[90m [0m[94mimport[0m load_dotenv                                                 [31m [0m
+[31m [0m   [2m 11 [0m                                                                               [31m [0m
+[31m [0m   [2m 12 [0m[2m# --- 新版 LangChain 导入 (适配 0.3.x) ---[0m                                     [31m [0m
+[31m [0m [31m❱ [0m 13 [94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[90m [0m[94mimport[0m create_history_aware_retriever, create_retrieval_ [31m [0m
+[31m [0m   [2m 14 [0m[94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[4;96m.[0m[4;96mcombine_documents[0m[90m [0m[94mimport[0m create_stuff_documents_chain    [31m [0m
+[31m [0m   [2m 15 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mprompts[0m[90m [0m[94mimport[0m ChatPromptTemplate, MessagesPlaceholder     [31m [0m
+[31m [0m   [2m 16 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mmessages[0m[90m [0m[94mimport[0m HumanMessage, AIMessage                    [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'langchain.chains'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mexec_code.py[0m:129 in exec_func_with_error_handling                                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/venv/lib/python3.10/site-packages/streamlit/runtime/scriptrun[0m [31m [0m
+[31m [0m [2mner/[0m[1mscript_runner.py[0m:672 in code_to_exec                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/root/rag-AI-lab-linux/[0m[1mweb_app.py[0m:13 in <module>                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 10 [0m[94mfrom[0m[90m [0m[4;96mdotenv[0m[90m [0m[94mimport[0m load_dotenv                                                 [31m [0m
+[31m [0m   [2m 11 [0m                                                                               [31m [0m
+[31m [0m   [2m 12 [0m[2m# --- 新版 LangChain 导入 (适配 0.3.x) ---[0m                                     [31m [0m
+[31m [0m [31m❱ [0m 13 [94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[90m [0m[94mimport[0m create_history_aware_retriever, create_retrieval_ [31m [0m
+[31m [0m   [2m 14 [0m[94mfrom[0m[90m [0m[4;96mlangchain[0m[4;96m.[0m[4;96mchains[0m[4;96m.[0m[4;96mcombine_documents[0m[90m [0m[94mimport[0m create_stuff_documents_chain    [31m [0m
+[31m [0m   [2m 15 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mprompts[0m[90m [0m[94mimport[0m ChatPromptTemplate, MessagesPlaceholder     [31m [0m
+[31m [0m   [2m 16 [0m[94mfrom[0m[90m [0m[4;96mlangchain_core[0m[4;96m.[0m[4;96mmessages[0m[90m [0m[94mimport[0m HumanMessage, AIMessage                    [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'langchain.chains'[0m
