@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 ### 3. 设置 API Key
 ```bash
-在项目根目录下创建 .env 文件，并填入你的 DeepSeek API Key：
+#在项目根目录下创建 .env 文件，并填入你的 DeepSeek API Key：
 
 Code snippet
 OPENAI_API_KEY=sk-你的DeepSeek密钥
@@ -41,7 +41,7 @@ OPENAI_API_KEY=sk-你的DeepSeek密钥
 
 ### 4. 运行系统
 ```bash
-使用国内镜像加速下载模型并启动
+#使用国内镜像加速下载模型并启动
 HF_ENDPOINT=[https://hf-mirror.com](https://hf-mirror.com) streamlit run web_app.py --server.address 0
 ```
 
