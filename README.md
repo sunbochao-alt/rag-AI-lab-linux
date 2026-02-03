@@ -24,26 +24,29 @@
 ```bash
 git clone [https://github.com/sunbochao-alt/rag-AI-lab-linux.git](https://github.com/sunbochao-alt/rag-AI-lab-linux.git)
 cd rag-AI-lab-linux
-
-2. 环境配置 (Conda)
-Bash
+```
+### 2. 环境配置 (Conda)
+```bash
 conda create -n new_lab_rag_env python=3.11
 conda activate new_lab_rag_env
 pip install -r requirements.txt
-
-3. 设置 API Key
+```
+### 3. 设置 API Key
+```bash
 在项目根目录下创建 .env 文件，并填入你的 DeepSeek API Key：
 
 Code snippet
 OPENAI_API_KEY=sk-你的DeepSeek密钥
+```
 
-4. 运行系统
-Bash
-# 使用国内镜像加速下载模型并启动
+### 4. 运行系统
+```bash
+使用国内镜像加速下载模型并启动
 HF_ENDPOINT=[https://hf-mirror.com](https://hf-mirror.com) streamlit run web_app.py --server.address 0
+```
 
-
-📂 目录结构说明
+## 📂 目录结构说明
+```bash
 web_app.py
 系统核心逻辑文件，集成 Streamlit UI、文档切分、向量检索及大模型调用链路。
 
@@ -65,5 +68,4 @@ requirements.txt
 
 进程管理
 如需在后台持久运行，建议使用 nohup：
-
-nohup streamlit run web_app.py --server.address 0.0.0.0 > streamlit.log 2>&1 &
+```
